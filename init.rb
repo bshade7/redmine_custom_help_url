@@ -15,7 +15,10 @@ Redmine::Plugin.register :redmine_custom_help_url do
   delete_menu_item :top_menu, :help
 end
 
-if Rails::VERSION::MAJOR >= 3
+if Rails::VERSION::MAJOR >= 5
+  ActionDispatch::Reloader.to_prepare do
+    require_dependency 'redmine_custom_help_url'
+elsif Rails::VERSION::MAJOR >= 3
   ActionDispatch::Callbacks.to_prepare do
     require_dependency 'redmine_custom_help_url'
   end
