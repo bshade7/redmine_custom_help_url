@@ -16,7 +16,7 @@ Redmine::Plugin.register :redmine_custom_help_url do
 end
 
 if Rails::VERSION::MAJOR >= 5
-  ActionDispatch::Reloader.to_prepare do
+  ActiveSupport::Reloader.to_prepare do
     require_dependency 'redmine_custom_help_url'
   end
 elsif Rails::VERSION::MAJOR >= 3
