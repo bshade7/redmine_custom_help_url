@@ -4,10 +4,10 @@ require 'dispatcher' unless Rails::VERSION::MAJOR >= 3
 Redmine::Plugin.register :redmine_custom_help_url do
   name 'Redmine Custom Help URL plugin'
   description 'A plugin to replace the help top-menu item with one for which an admin can define the URL himself without touching the Redmine core.'
-  url 'https://github.com/MischaTheEvil/redmine_custom_help_url'
-  author 'Mischa The Evil'
-  author_url 'https://github.com/MischaTheEvil'
-  version '0.0.2'
+  url 'https://github.com/bshade7/redmine_custom_help_url'
+  author 'bshade7'
+  author_url 'https://github.com/bshade7'
+  version '0.0.3'
   
   settings :default => {:custom_help_url => ''},
            :partial => 'settings/redmine_custom_help_url_settings'
