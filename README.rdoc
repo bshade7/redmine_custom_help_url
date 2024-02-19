@@ -1,6 +1,6 @@
 =Redmine Custom Help URL plugin
 
-Redmine Custom Help URL plugin is a Redmine plugin which will replace the help top-menu item with one for which an admin can define the URL himself without touching the Redmine core.
+Redmine Custom Help URL plugin is a Redmine plugin which will replace the help top-menu item with one for which an admin can define the URL without touching the Redmine core.
 
 ==Author
 
@@ -13,11 +13,11 @@ For the complete changelog see the <tt>CHANGELOG</tt>-file in the Redmine Custom
 
 ==Latest release
 
-The currently available, latest release of the plugin is version <b>0.0.3</b>.
+The currently available, latest release of the plugin is version <b>0.0.4</b>.
 
 ==Compatibility
 
-This plugin should be compatible with Redmine 1.x,2.x,3.x,4.x,5.x
+This plugin should be compatible with Redmine 1.x,2.x,3.x,4.x,5.x,5.1.x
 
 ==Obtaining 
 
