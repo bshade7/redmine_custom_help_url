@@ -2,9 +2,6 @@ require_dependency 'redmine/info'
 
 # Create namespace module for override
 module RedmineCustomHelpUrl
-  # Make it work in development environment
-  unloadable
-  
   # TODO: needs a restart of Redmine after custom_help_url setting value change
   # Override core Redmine::Info.help_url, when
   # Setting.plugin_redmine_custom_help_url['custom_help_url'] contains
